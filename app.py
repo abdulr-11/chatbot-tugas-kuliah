@@ -8,7 +8,7 @@ import os
 st.set_page_config(page_title="Asisten Tugas Kuliah", page_icon="🎓", layout="centered")
 
 # GANTI DENGAN API KEY GEMINI ANDA!
-API_KEY = "st.secrets["GEMINI_API_KEY"] 
+API_KEY = st.secrets["GEMINI_API_KEY"] 
 
 genai.configure(api_key=API_KEY)
 
